@@ -27,7 +27,7 @@ local SpellData = {Name = name, Delay=delay, Range=range, Radius=radius, Speed=s
 return SpellData;
 end;
 
-function Accel(sm,smx,ac) return {[speedmin]=sm, [speedmax]=smx, [accel]=ac};
+function Accel(sm,smx,ac) return {[speedmin]=sm, [speedmax]=smx, [accel]=ac} end;
 
 _SpellDatabase={
                 [Atroxx] =  {
