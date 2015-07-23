@@ -12,9 +12,9 @@ local Data = {
              return Data;
              end;
 ----------USAGE---------------------- COMMENT LINE BELOW BEFORE USING THE DB (if you want :) ) ----------------------------------
-local SpellBook = CreateSpellBook(myHero);
-local Qrange = SpellBook.Q.range();
-local Qcd = SpellBook.Q.cd();
+--local SpellBook = CreateSpellBook(myHero);
+--local Qrange = SpellBook.Q.range();
+--local Qcd = SpellBook.Q.cd();
 --This will give you the spellbook with all spell data as function so need need to include spells in Loop. This will reduce FPS drops :)
 ----You get the idea :)-----------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -30,7 +30,7 @@ end;
 function Accel(sm,smx,ac) return {[speedmin]=sm, [speedmax]=smx, [accel]=ac} end;
 
 _SpellDatabase={
-                [Atroxx] =  {
+                [Atrox] =  {
                             [Q] = CreateSkillShot ("AtroxQ", 600, 650, 250, 2000, nil, true, "Circular"),
                             [E] = CreateSkillShot ("AtroxE", 250, 1075, 35, 1250, false, false, "Linear")
                             },
@@ -190,7 +190,7 @@ _SpellDatabase={
                             [E] = CreateSkillShot ("KogMawVoidOoze", 250, 1360, 120, 1400, false, false, "Linear", nil),
                             [R] = CreateSkillShot ("KogMawLivingArtillery", 1200, 1800, 150, nil, nil, false, "Linear", nil),
                             },
-                [LeBlank] = {
+                [Leblanc] = {
                             [W] = CreateSkillShot ("LeblancSlide", 0, 600, 220, 1500, nil, true, "Circular"),
                             [E] = CreateSkillShot ("LeblancSoulShackle", 250, 950, 70, 1600, true, false, "Linear"),
                             [Rw]= CreateSkillShot ("LeblancSlideM", 0, 600, 220, 1500, nil, true, "Circular"),
