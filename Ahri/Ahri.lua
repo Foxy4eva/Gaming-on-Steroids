@@ -61,7 +61,7 @@ if currentmanaPC < 0.5 then return end;
 CastQ();
 CastE();
 
-function IsNnRange(target,range)
+function IsInRange(target,range)
 if target == nil then return nil end;
 local tPos = GetOrigin(target);
 local mPos = GetOrigin(myHero);
