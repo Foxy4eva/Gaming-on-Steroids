@@ -39,7 +39,7 @@ _SpellDatabase={
                             Qr= CreateSkillShot ("AhriOrbReturn", 250, 1000, 100, 60, false, false, "Linear", Accel(60,2600,1900)), 
                             E = CreateSkillShot ("AhriSeduce", 250, 1000, 60, 1550, true, false, "Linear")
                             },
-                ["Ammumu"] =  {
+                ["Amumu"] =  {
                             Q = CreateSkillShot ("BandageToss", 250, 1100, 90, 2000, true, false, "Linear")
                             },
                 ["Anivia"] =  {
